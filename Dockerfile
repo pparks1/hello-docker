@@ -8,5 +8,5 @@ MAINTAINER Patrick L Parks <email@domain.com>
 RUN mkdir mynewdir
 RUN touch /mynewdir/mynewfile
 # Write the message in the file
-RUN echo 'This is my new container using Dockerfile' > /mynewdir/mynewfile
+RUN echo 'TAKE #2--This is my new container using Dockerfile' > /mynewdir/mynewfile
 
